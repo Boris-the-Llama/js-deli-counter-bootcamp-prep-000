@@ -15,7 +15,7 @@ function nowServing(array){
   }
  
  function currentLine() {
-   if (array.length > 0) {
-     
+   if (array.length === 0) {
+     return 
    }
  }
