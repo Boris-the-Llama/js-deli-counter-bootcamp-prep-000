@@ -22,6 +22,6 @@ function nowServing(array){
    var position = parseInt(array[i] + 1);
    for (var i = array.length; i > 0; i--) {
      str = str + position + array[i];
- }
+ } return str;
    }
  
