@@ -6,13 +6,11 @@ function takeANumber(array, name) {
   return `Welcome, ${name}. You are number ` + position + ' in line.';
 }
 
-function nowServing(array) {
-    for (var i = array.length; i > 0; i--) {
-    return (
-      "Currently serving " + array[0] + "."
-      );
-  } if (array.length === 0) {
-    return 'There is nobody waiting to be served!';
+function nowServing(array){
+  if (array.length > 0) {
+      return `Currently serving ${array.shift()}`;
+        } else {
+    return `There is nobody waiting to be served!`;
   }
   }
  
