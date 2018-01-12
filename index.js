@@ -13,4 +13,14 @@ function nowServing(array){
     return `There is nobody waiting to be served!`;
   }
   }
+ 
+ function currentLine(array) {
+   if (array.length === 0) {
+     return "The line is currently empty.";
+   }
+   var str = "The line is currently:";
+   var position = parseInt(array[i] + 1);
+   for (var i = array.length; i > 0; i--) {
+     str = str + position + `${array[i]`;
+   }
  }
