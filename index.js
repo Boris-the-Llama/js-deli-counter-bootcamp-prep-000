@@ -7,9 +7,11 @@ function takeANumber(array, name) {
 }
 
 function nowServing(array) {
-  do {
+    for (var i = array.length; i > 0; i--) {
     console.log("Currently serving " + array[0] + ".");
     array.shift();
-  } while (array.length > 0);
+  } if (array.length === 0) {
+    
+  }
   }
  
