@@ -23,6 +23,6 @@ function nowServing(array){
    for (var i = 0; i < array.length ; i++) {
      str = str + " " + position + ". " + array[i] + ",";
      position++;
- }
+ } return str;
    }
  
