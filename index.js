@@ -8,7 +8,6 @@ function takeANumber(array, name) {
 
 function nowServing(array) {
     for (var i = array.length; i > 0; i--) {
-    array.shift();
     return "Currently serving " + array[0] + ".";
   } if (array.length === 0) {
     return 'There is nobody waiting to be served!';
