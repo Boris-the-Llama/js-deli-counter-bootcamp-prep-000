@@ -7,12 +7,9 @@ function takeANumber(array, name) {
 }
 
 function nowServing(array) {
-  
-  do ()
-  if (array.length === 0) {
-  return "There is nobody waiting to be served!";
-  } else {
+  do {
     console.log("Currently serving " + array[0] + ".");
     array.shift();
+  } while (array.length > 0);
   }
-}
+ 
