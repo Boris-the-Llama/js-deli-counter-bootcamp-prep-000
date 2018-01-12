@@ -8,6 +8,7 @@ function takeANumber(array, name) {
 
 function nowServing(array) {
   
+  do ()
   if (array.length === 0) {
   return "There is nobody waiting to be served!";
   } else {
