@@ -19,10 +19,10 @@ function nowServing(array){
      return "The line is currently empty.";
    }
    var str = "The line is currently:";
-   var name = array[i];
-   var position = parseInt(array.indexOf(name) + 1);
+   var position = 1;
    for (var i = array.length; i > 0; i--) {
      str = str + position + array[i];
+     position++;
  } return str;
    }
  
