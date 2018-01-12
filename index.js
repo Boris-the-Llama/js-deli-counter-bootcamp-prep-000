@@ -18,10 +18,10 @@ function nowServing(array){
    if (array.length === 0) {
      return "The line is currently empty.";
    }
-   var str = "The line is currently:";
+   var str = "The line is currently: ";
    var position = 1;
    for (var i = 0; i < array.length ; i++) {
-     str = str + position + array[i];
+     str = str + " " + position + " " + array[i];
      position++;
  } return str;
    }
