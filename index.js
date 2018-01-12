@@ -11,7 +11,6 @@ function nowServing(array) {
     return (
       "Currently serving " + array[0] + "."
       );
-      array.shift();
   } if (array.length === 0) {
     return 'There is nobody waiting to be served!';
   }
